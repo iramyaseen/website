@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .video-links:hover{
     cursor: pointer;
     background-color: #e8e8e8 !important;
@@ -11,3 +12,18 @@
     text-decoration: underline;
     color: inherit;
 }
+=======
+.video-links:hover{
+    cursor: pointer;
+    background-color: #e8e8e8 !important;
+}
+
+.active-video {
+    background-color: silver !important;
+}
+
+.prof-view a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+>>>>>>> d3301e023643c436dffadd75c29a502468ba92d3

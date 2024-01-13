@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .person-des{
     border: 1px silver solid;
 }
@@ -8,4 +9,16 @@
 
 .toggled-para{
     font-size: large;
+=======
+.person-des{
+    border: 1px silver solid;
+}
+
+.toggled-input{
+    font-size: medium;
+}
+
+.toggled-para{
+    font-size: large;
+>>>>>>> d3301e023643c436dffadd75c29a502468ba92d3
 }

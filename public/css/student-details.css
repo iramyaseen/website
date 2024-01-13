@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .prof-pic {
     height: 140px !important;
     width: 140px !important;
@@ -18,4 +19,26 @@
 
 .card-preview:hover{
     background-color:#d6d6d6 !important;
+=======
+.prof-pic {
+    height: 140px !important;
+    width: 140px !important;
+}
+
+.prof-view {
+    background-color: white;
+    border: 0.5px solid #e0e0e0;
+}
+
+.bio-head{
+    border: 0.5px solid #e0e0e0;
+}
+
+.card-item{
+    background-color: #f2f2f2 !important;
+}
+
+.card-preview:hover{
+    background-color:#d6d6d6 !important;
+>>>>>>> d3301e023643c436dffadd75c29a502468ba92d3
 }
