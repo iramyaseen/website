@@ -8,10 +8,7 @@
 <script src="/js/waypoint.min.js"></script>
 <script src="/js/jquery.counterup.min.js"></script>
 <script src="/js/fancybox.js"></script>
-<script src="/js/wow.js"></script>
-<script src="/js/smooth-scrolling.js"></script>
-<script src="/js/date-time-picker.js"></script>
-<script src="/js/emojionearea.min.js"></script>
+<script src="/js/wow.js"></script>"></script>
 <script src="/js/jquery.filer.min.js"></script>
 <script src="/js/tooltipster.bundle.min.js"></script>
 <script src="/js/main.js"></script>
@@ -40,7 +37,7 @@
 
   function render() {
     window.recaptchaVerifier = new firebase.auth.RecaptchaVerifier(
-      "recaptcha-container"
+      "recaptcha"
     );
     recaptchaVerifier.render();
   }
@@ -148,7 +145,7 @@
 
     console.log(data)
     console.log("dataFromServer : ", JSON.stringify(obj));
-    xhttp.open("GET", "/users/go-with-it?data=" + JSON.stringify(obj), true);
+    xhttp.open("GET", + JSON.stringify(obj), true);
     xhttp.send();
 
 
